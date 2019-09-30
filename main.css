@@ -1,0 +1,514 @@
+.firstContainer {
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 30px solid black;
+    background-color: #d9d9d9
+}
+
+#particles-js {
+    /* background: white;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; */
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: .7;
+}
+
+.secondContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.thirdContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.fourthContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navBar {
+    border: 4px solid black;
+height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 8vw; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0em;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 25em;
+  justify-content: center;
+}
+
+.homeBtn {
+        display: flex;
+        position: relative;
+        background-color: gray;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        top: -9em;
+        left: 1em;
+}
+
+.img {
+    size: 10px;
+}
+
+.homeBtn:hover {
+    background-color: black;
+  }
+
+.flex-column1{
+    display: flex;
+    flex-direction: column;
+    line-height: -20em;
+    font-size: 1em;
+    letter-spacing: 0px;
+    margin-bottom: -20em;
+}
+
+.nav-link1 {
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+    top: -16em;
+    left: 0em;
+    color: black;
+    font-size: 17px;
+}
+
+.nav-link1:hover {
+    color: red;
+}
+
+.nav-link2 {
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+    top: -11em;
+    left: 0em;
+    color: black;
+    font-size: 17px;
+}
+
+.nav-link2:hover {
+    color: red;
+}
+
+.nav-link3{
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+    top: -8em;
+    color: black;
+    font-size: 17px;
+}
+
+.nav-link3:hover {
+    color: red;
+}
+
+.nav-link4{
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+    top: -5em;
+    color: black;
+    font-size: 17px;
+}
+
+.nav-link4:hover {
+    color: red;
+}
+
+.row2 {
+    display: flex; 
+    position: relative;
+    top: 11em;
+    justify-content: center;
+    text-align: center;
+}
+
+.col3 {
+    justify-content: center;
+}
+
+.col4 {
+    justify-content: center;
+}
+
+.aboutMe {
+    display: flex; 
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: 17em;
+}
+
+.about1 {
+    justify-content: center;
+}
+
+.experience {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.fa-html5 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .2em;
+    top: .17em;
+    color: red;
+}
+
+.fa-css3-alt {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .2em;
+    top: .17em;
+    color: red;
+}
+
+.fa-js-square {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .2em;
+    top: .17em;
+    color: red;
+}
+
+.fa-react{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .1em;
+    top: .17em;
+    color: red;
+}
+
+.fa-angular {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .1em;
+    top: .17em;
+    color: red;
+}
+
+.fa-bootstrap {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .2em;
+    top: .17em;
+    color: red;
+}
+
+.fa-git {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .1em;
+    top: .17em;
+    color: red;
+}
+
+.fa-node {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .1em;
+    top: .17em;
+    color: red;
+}
+
+.fa-salesforce {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    left: .1em;
+    top: .17em;
+    color: red;
+}
+.skill1 {
+        position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill2 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill3 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill4 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill5 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill6 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill7 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill8 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.skill9 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 7em;
+        width: 10em;
+}
+
+.projects {
+    height: 20em;
+}
+
+.projects2 {
+    height:20em;
+}
+
+.projecth1 {
+    position: relative;
+    text-align: center;
+}
+
+.exampleh1 {
+    position: relative;
+    text-align: center;
+}
+
+.project1 {
+    background: url("./assets/CSS\ Creature.png");
+    background-size: cover;
+        position: relative;
+        background-position: center center;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+.project2 {
+    background: url("./assets/Netflix\ Static.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+.project3 {
+    background: url("./assets/Repl.it.png");
+    background-size: cover;
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+.project4 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+.project5 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+.project6 {
+    position: relative;
+        top: 1em;
+        border: 3px solid black;
+        height: 16em;
+        width: 22em;
+}
+
+/* .workExp {
+    height:27em;
+} */
+
+/* .skillHead {
+    height:27em;
+} */
+
+#secondContainerBackground{
+    background: gray;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: .7;
+    margin-left: 0;
+}
+#fourthContainerBackground {
+    background: gray;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: .7;
+}
+
+
+
+#contact {
+    background: black;
+    padding-bottom: 3em;
+}
+
+h2 {
+    color: black;
+}
+
+.text-center button {
+    background-color: gray;
+    color: black;
+}
+
+.gitHub {
+    font-size: 2.5em;
+}
+
+.fa-github {
+    color: red;
+}
+
+.fa-codepen {
+    color: red;
+}
+
+.fa-linkedin-in{
+    color: red;
+}
+
+.codePen {
+    font-size: 2.5em;
+}
+
+.linkedIn {
+    /* display: flex;
+    position: relative;
+    top: 10em;
+    left:1em; */
+    font-size: 2.5em;
+}
+
+.github {
+    position: relative;
+        top: 1em;
+        height: 3em;
+        width: 3em;
+}
+
+.codepen {
+    position: relative;
+        top: 1em;
+        height: 3em;
+        width: 3em;
+}
+
+.linkedin-in {
+    position: relative;
+        top: 1em;
+        height: 3em;
+        width: 3em;
+}
+
+.details .hoverText {
+    display: flex;
+    position:relative;
+    align-items: center;
+    align-content: center;
+    font-size: 1.5em;
+visibility:hidden;
+}
+
+.details:hover .hoverText {
+    visibility:visible;
+    }
+    
